@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quản Lý Bóng Đá</title>
+</head>
+<body>
+    <header>
+        <h1>TOP</h1>
+    </header>
+    <section class="admin-content">
+        <div class="admin-content-left">
+            <ul>
+                <li><a href="">Danh mục</a>
+                    <ul>
+                        <li><a href="">Thêm Cầu Thủ</a></li>
+                        <li><a href="">Danh Sách Cầu Thủ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="admin-content-right">
+            <div class="admin-content-right-cartegory_add">
+                <h1>Thêm Cầu Thủ</h1>
+                <form action="" method="POST">
+                    <label for="">Nhập tên sản phẩm <span class="saodo" >*</span></label>
+                    <input type="text" placeholder="Nhập tên danh mục" name="cartegory_name">
+                    <label for="">Ngày tháng năm sinh <span class="saodo" >*</span></label>
+                    <input type="datetime-local" name="datetime" >
+                    <label for="">Nhập quê quán <span class="saodo" >*</span></label>
+                    <input type="text" name="quequan" >
+                    <label for="">Chọn câu lạc bộ <span class="saodo" >*</span></label>
+                    <select name="tenclb" id="">
+                        <option value="#">-- Chọn --</option>
+                    </select>
+                    <button type="submit">Thêm</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
